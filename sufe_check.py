@@ -49,6 +49,7 @@ class checker ():
         self.mobile = mobile
         self.passwd = passwd
         self.maxretry = maxretry
+        
 
         if self.headless:
             from selenium.webdriver.chrome.options import Options  # no gui
